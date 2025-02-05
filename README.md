@@ -26,10 +26,9 @@ If you would like to participate in the CTO Summit, please reach out to [enduser
 
 ## End User Groups
 
-- Developer Experience User Group (link coming soon!)
-- [Financial User Group](https://github.com/cncf/financial-user-group)
+- [Developer Experience User Group](https://github.com/cncf/enduser-private/tree/main/end-user-groups/developer-experience)
 - [Research User Group](https://github.com/cncf/research-user-group)
-- [Transportation User Group](https://github.com/cncf/transportation-user-group)
+- [Public Sector User Group](https://github.com/cncf/public-sector-user-group)
 
 ## Case Studies
 
