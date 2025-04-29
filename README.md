@@ -14,15 +14,15 @@ End users are organizations that use cloud native technologies internally and do
 - [End user mailing list](https://lists.cncf.io/g/cncf-enduser/topics)
 - [#enduser Slack channel](https://slack.com/app_redirect?channel=G95G3RZ25) in the CNCF Workspace
 
-If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](http://memberdesk.cncf.io) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
+If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](https://helpcenter.linuxfoundation.org/) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
 
 ## Community Events
 
-### CTO Summit
+### Cloud Native Executive Summit
 
-The CTO Summit is an exclusive event to hear from key decision makers and leaders within the cloud native and open source world with the goal of sharing best practices, use cases, and future planning for furthering CNCF’s mission of making cloud native ubiquitous.
+The Cloud Native Executive Summit is an exclusive event to hear from key decision makers and leaders within the cloud native and open source world with the goal of sharing best practices, use cases, and future planning for furthering CNCF’s mission of making cloud native ubiquitous.
 
-If you would like to participate in the CTO Summit, please reach out to [enduser-support@cncf.io](mailto:enduser-support@cncf.io) for more information.
+If you would like to participate in the Cloud Native Executive Summit, please reach out to [enduser-support@cncf.io](mailto:enduser-support@cncf.io) for more information.
 
 ## End User Groups
 
