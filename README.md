@@ -82,7 +82,7 @@ The End User TAB may:
 
 The TAB hosts a public meeting on the 3rd Monday of every month at 8AM PT (USA Pacific Time; [Convert to local time zone](http://www.thetimezoneconverter.com/?t=8:00AM&tz=San%20Francisco)).
 
-https://zoom.us/j/96509520391 Passcode: ...
+https://zoom.us/j/96509520391 Passcode: 407305
 
 Here is a [Google calendar for all public CNCF events](https://goo.gl/eyutah). This calendar is also available on the [CNCF Website](https://www.cncf.io/calendar/).
 
@@ -91,8 +91,8 @@ The meeting agenda and minutes are kept on [this github project](https://github.
 ## Communication
 
 The TAB and End User communities are available via multiple channels.
-* End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/cncf-enduser))
-* Slack at #tab and #enduser: Join the [CNCF slack](https://slack.cncf.io/)
+* End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/cncf-enduser)
+* Slack at [https://cloud-native.slack.com/archives/C05T9P1HXR6](#tab) and [https://cloud-native.slack.com/archives/G95G3RZ25](#enduser): Join the [CNCF slack](https://slack.cncf.io/)
 
 If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](http://memberdesk.cncf.io) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
 
