@@ -15,7 +15,7 @@ This document defines the workflow for the contributions and interactions of the
 
 As part of the project due diligence the TOC submits a request to the TAB to participate during adopter interviews. The TOC has information regarding the [definition of an adopter](https://github.com/cncf/toc/blob/main/FAQ.md#what-is-the-definition-of-an-adopter) and the [template for the adopter interviews](https://github.com/cncf/toc/blob/main/operations/toc-templates/template-adopter-questions.md).
 
-The TOC also provides an initial set of adopters to be potentially interviews, usually provided directly by the project.
+The TOC also provides an initial set of adopters to be potentially interviewed, usually provided directly by the project.
 
 ### Assigned
 
