@@ -1,6 +1,6 @@
 # Reference Architecture Submission Process
 
-This document summarized the process for the submission, review and publication of new reference architectures in the CNCF. It describes the expected workflow and the different stakeholders involved in each step.
+This document summarizes the process for the submission, review, and publication of new reference architectures in the CNCF. It describes the expected workflow and the different stakeholders involved in each step.
 
 ![Reference Architecture Workflow Diagram](reference-architectures-workflow.png)
 <p align="center">
@@ -15,7 +15,7 @@ This document summarized the process for the submission, review and publication 
 
 New reference architectures should be submitted via [this github template]() (TODO template!) by individual end users, groups of end users from a specific domain or end user group, or community groups.
 
-The information to be included in the proposal is in the template, and includes at least:
+The information to be included in the proposal is in the template, and includes at a minimum:
 * The contact for the reference architecture;  
 * The end user(s) organization(s) backing the submission and its content;  
 * The CNCF projects being used by the stack;
@@ -25,9 +25,9 @@ The information to be included in the proposal is in the template, and includes 
 
 *Who: Acceptance should be done by the TAB members*
 
-Each submission should be checked by the TAB and accepted before the detailed work starts. The purpose of this step is to validate its relevance to the community and clarify any open items, potential overlaps with existing documents, etc.
+Each submission should be reviewed by the TAB and accepted before the detailed work starts. The purpose of this step is to validate its relevance to the community and clarify any open items, potential overlaps with existing documents, etc.
 
-Once accepted work should start in expanding the content of the reference architecture.
+Once accepted, work should start in expanding the content of the reference architecture.
 
 ### Reviewed
 
