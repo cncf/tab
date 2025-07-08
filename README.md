@@ -91,7 +91,7 @@ The meeting agenda and minutes are kept on [this github project](https://github.
 ## Communication
 
 The TAB and End User communities are available via multiple channels.
-* End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/cncf-enduser)
+* End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/g/cncf-enduser)
 * Slack at [https://cloud-native.slack.com/archives/C05T9P1HXR6](#tab) and [https://cloud-native.slack.com/archives/G95G3RZ25](#enduser): Join the [CNCF slack](https://slack.cncf.io/)
 
 If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](http://memberdesk.cncf.io) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
@@ -99,7 +99,7 @@ If your organization is already a member of the [End User Community](https://www
 ## Contribution
 
 Join our [public meetings](#meetings) or one of the End User Groups:
-* [Developer Experience User Group](https://github.com/cncf/enduser-private/tree/main/end-user-groups/developer-experience)
+* Developer Experience User Group
 * [Research User Group](https://github.com/cncf/research-user-group)
 * [Public Sector User Group](https://github.com/cncf/public-sector-user-group)
 
