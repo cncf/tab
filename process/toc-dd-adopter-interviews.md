@@ -35,7 +35,7 @@ The TAB members assigned to this task reach out to the CNCF end user community t
 
 The main step in the process, this includes scheduling and performing the interviews with each of the adopters. This is usually done in an informal setting with an online call. A set of suggested questions is documented in [this template](https://github.com/cncf/toc/blob/main/operations/toc-templates/template-adopter-interview-request.md) but those are often extended to explore specific issues or areas of interest being raised or needing clarification.
 
-It is essential to request explicit authorization for the publication of the interview content. If this is not possible, the information should be anonymized.
+It is essential to request explicit authorization from the adopter/organization for the publication of the interview content. If this is not possible, the information should be anonymized.
 
 ### Completed
 
