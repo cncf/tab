@@ -94,7 +94,7 @@ The TAB and End User communities are available via multiple channels.
 * End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/g/cncf-enduser)
 * Slack at [https://cloud-native.slack.com/archives/C05T9P1HXR6](#tab) and [https://cloud-native.slack.com/archives/G95G3RZ25](#enduser): Join the [CNCF slack](https://slack.cncf.io/)
 
-If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](http://memberdesk.cncf.io) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
+If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](https://helpcenter.linuxfoundation.org/) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
 
 ## Contribution
 
@@ -111,11 +111,11 @@ If you're interested in contributing a case study, please reference our [CNCF En
 
 ## Community Events
 
-### CTO Summit
+### Cloud Native Executive Summit
 
-The CTO Summit is an exclusive event to hear from key decision makers and leaders within the cloud native and open source world with the goal of sharing best practices, use cases, and future planning for furthering CNCF’s mission of making cloud native ubiquitous.
+The Cloud Native Executive Summit is an exclusive event to hear from key decision makers and leaders within the cloud native and open source world with the goal of sharing best practices, use cases, and future planning for furthering CNCF’s mission of making cloud native ubiquitous.
 
-If you would like to participate in the CTO Summit, please reach out to [enduser-support@cncf.io](mailto:enduser-support@cncf.io) for more information.
+If you would like to participate in the Cloud Native Executive Summit, please reach out to [enduser-support@cncf.io](mailto:enduser-support@cncf.io) for more information.
 
 ## Join the End User Community
 
