@@ -9,7 +9,7 @@ This document defines the workflow for the contributions and interactions of the
 
 ## Workflow Steps
 
-### Requested
+### 1. Requested
 
 *Who: TOC*
 
@@ -17,19 +17,19 @@ As part of the project due diligence the TOC submits a request to the TAB to par
 
 The TOC also provides an initial set of adopters to be potentially interviewed, usually provided directly by the project.
 
-### Assigned
+### 2. Assigned
 
 *Who: TAB*
 
 The TAB selects one or more members that will drive the adopter interview process and the interactions with the TOC.
 
-### Announced
+### 3. Announced
 
 *Who: Selected TAB member(s)* 
 
 The TAB members assigned to this task reach out to the CNCF end user community to collect a larger set of project adopters that can be interviewed. The goal is to complement the initial adopter list given by the project - to ensure unbiased views as well as cover for provided organizations that do not qualify as adopters or do not show usage at the expected level.
 
-### Interviewed
+### 4. Interviewed
 
 *Who: Selected TOC \+ TAB members*
 
@@ -37,7 +37,7 @@ The main step in the process, this includes scheduling and performing the interv
 
 It is essential to request explicit authorization from the adopter/organization for the publication of the interview content. If this is not possible, the information should be anonymized.
 
-### Completed
+### 5. Completed
 
 *Who: TOC \+ TAB*
 
