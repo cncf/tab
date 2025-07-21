@@ -13,7 +13,7 @@ This document summarizes the process for the submission, review, and publication
 
 *Who: Individual End Users, Groups of End Users, Community Groups*
 
-New reference architectures should be submitted via [this github template]() (TODO template!) by individual end users, groups of end users from a specific domain or end user group, or community groups.
+New reference architectures should be submitted via [this github template (coming soon)]() by individual end users, groups of end users from a specific domain or end user group, or community groups.
 
 The information to be included in the proposal is in the template, and includes at a minimum:
 * The contact for the reference architecture;  
