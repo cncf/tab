@@ -1,118 +1,59 @@
 name: "Reference Architecture Submission"
 description: "Submit a Reference Architecture for Community Review"
-title: "[Reference: ]"
-labels: ["reference-architecture"]
+title: "[Reference Architecture: ]"
+labels: ["area/reference-architecture"]
 body:
  - type: markdown
    attributes:
      value: |
        **Purpose of This Issue**
  
-       This is a submission to the reference architecture process.
-
-       Add more information here for submitters...
- 
+       This is a submission for a proposal of a reference architecture, as [defined here](https://github.com/cncf/tab/blob/main/process/reference-architectures.md). It should not contain the full content but a summary to evaluate its relevance to the community.
  - type: input
    id: name
    attributes: 
      label: Name
-     description: What is the name of this architecture submission?
-     placeholder: e.g., My Reference Architecture
+     description: A name for this architecture submission. Suggestions include the name of the end user or domain as well as any specific area of interest (CI/CD, Edge, etc)
+     placeholder: Edge Deployments at Organization XYZ
    validations:
      required: true
  - type: input
-   id: affiliation
+   id: organization
    attributes:
-     label: Affiliation
+     label: Organization
      description: Architectures must be submitted by at least one CNCF Member Company
-     placeholder: List of Companies
+     placeholder: List of Organizations
    validations:
      required: true
  - type: textarea
-   id: description
+   id: teams
    attributes:
-     label: Organizational Description
-     description: Describe your Organization 
-     placeholder: A brief description of your organization. e.g. a paragraph from an about page on your company's website
-   validations:
-     required: true
- - type: textarea
-   id: team
-   attributes:
-     label: Team Description
-     description: Describe your Team
-     placeholder: Do you work for a central IT organization in your company?  or for a team of a specific department?
-   validations:
-     required: true
- - type: textarea
-   id: platform-topology-internal
-   attributes:
-     label: Internal Topology
-     description: TBD
-     placeholder: Describe your Internal Platform Engineering Team Topology
-   validations:
-     required: true
- - type: textarea
-   id: platform-topology-external
-   attributes:
-     label: External Topology
-     description: TBD
-     placeholder: Describe your External Platform Engineering Team Topology
+     label: Team(s)
+     description: Describe the teams involved in this architecture
+     placeholder: Developer Platforms, ...
    validations:
      required: true
  - type: textarea
    id: overview
    attributes:
      label: Overview and Goals
-     description: TBD
-     placeholder: Brief overview of your architecture and any potential goals you are trying to achieve with it?
+     description: A brief overview of the goals of the implementation
+     placeholder: Edge deployment for sensor tracking
    validations:
      required: true
  - type: textarea
-   id: services
+   id: projects
    attributes:
-     label: Projects and Services
-     description: TBD
-     placeholder: Can you expand on why you are using those projects/services?
-   validations:
-     required: true
- - type: textarea
-   id: successes
-   attributes:
-     label: Successful Lessons Learned
-     description: TBD
-     placeholder: What has worked well?
-   validations:
-     required: true
- - type: textarea
-   id: improvements
-   attributes:
-     label: Improvements that could be made  
-     description: TBD
-     placeholder: What has not worked well?
-   validations:
-     required: true
- - type: textarea
-   id: glue
-   attributes:
-     label: Custom work and glue required
-     description: TBD
-     placeholder: What sort of "glue" have you had to develop to enable usage of your architecture? What have you done to have to get everything to work well together?e .g. have you written a bunch of helper scripts in bash? or maybe your own custom controller to manage a rollout?
+     label: Projects
+     description: List of projects being used in the proposed architecture (include all projects, also non CNCF projects)
+     placeholder: Kubernetes, Helm, ArgoCD, ...
    validations:
      required: true
  - type: textarea
    id: evolution
    attributes:
-     label: Updates and Changes
-     description: TBD
-     placeholder: Has your architecture evolved? What lessons did you learn from previous iterations?
-   validations:
-     required: true
- - type: textarea
-   id: future
-   attributes:
-     label: What's next?
-     description: TBD
-     placeholder: What's next for your architecture? What are you looking to do next?
+     label: Planned Evolution
+     description: Any evolution planned for this reference architecture
+     placeholder: Improvements in the area of networking and monitoring of edge devices
    validations:
      required: true
