@@ -9,6 +9,7 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 ### Platinum Member Seats
 
 * [Alolita Sharma](https://github.com/alolita), Apple
+* Michael Amundson, CVS Health
 
 ### Gold Member Seats
 
