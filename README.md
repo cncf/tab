@@ -9,16 +9,17 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 ### Platinum Member Seats
 
 * [Alolita Sharma](https://github.com/alolita), Apple
-* [Chad Beaudin](https://github.com/chadbeaudin), Boeing
+* Michael Amundson, CVS Health
 
 ### Gold Member Seats
 
 * [Henrik Blixt](https://github.com/hblixt), Intuit
-* [Amr Abdelhalem](https://github.com/ahalem), Fidelity Investments
 
 ### Silver Member Seats
 
 * [Ben Somogyi](https://github.com/bsomogyi), Lockheed Martin
+* [Kenta Tada](https://github.com/KentaTada), Toyota
+* [Mike Bowen](https://github.com/michael-bowen-sc), Blackrock
 
 ### At-large Seats
 
@@ -31,6 +32,9 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 * **[Ricardo Rocha](https://github.com/rochaporto), Chair, CERN**
 * [Katie Gamanji](https://github.com/kgamanji), Apple
 
+### Invited Seats
+* [Chad Beaudin](https://github.com/chadbeaudin), Boeing
+   
 ## Purpose and Duties
 
 The End User TAB is tasked with:
