@@ -1,73 +1,37 @@
 # Reference Architecture Submission Process
 
-This document summarizes the process for the submission, review, and publication of new reference architectures in the CNCF. It describes the expected workflow and the different stakeholders involved in each step.
+The Cloud Native Reference Architecture site is a community‑driven project led by the CNCF End User Technical Advisory Board. It showcases real architectures and the stories behind them - how they were designed, the trade-offs made, and how they map to cloud‑native principles in practice.
 
-![Reference Architecture Workflow Diagram](reference-architectures-workflow.png)
-<p align="center">
-( <a href="https://docs.google.com/drawings/d/1VkNwpQS_IxZKSl49B-RXzo1Zh2mofQ-MFRyoYhnDkus/edit?usp=sharing">original diagram</a> )
-</p>
+## Why it’s worth doing
 
-## Workflow Steps
+Beyond helping the broader community, submitting your architecture:
+* Highlights the work your team is already doing in production.
+* Provides concrete examples that ground the CNCF reference architecture and make it more useful for others.
+* Gives you structured feedback from peers and TAB members before the architecture becomes “frozen” in people’s minds.
 
-### 1. Proposed
+## Submission
 
-*Who: Individual End Users, Groups of End Users, Community Groups*
+Two paths for submission.
 
-New reference architectures should be submitted via [this github issue template](https://github.com/cncf/tab/issues/new?template=reference-architecture.yml) by individual end users, groups of end users from a specific domain or end user group, or community groups.
+### Open Issue
 
-The information to be included in the proposal is in the template, and includes at a minimum:
-* The contact for the reference architecture;  
-* The end user(s) organization(s) backing the submission and its content;  
-* The CNCF projects being used by the stack;
-* (optional) The domain or industry of the reference architecture;  
+If you're still thinking on how it might look like, start with an issue in our repo, this makes it easy to get started.
 
-### 2a. Accepted
+Here’s the flow:
+* Open a new issue for a [Reference Architecture Submission](https://github.com/cncf/tab/issues/new?template=reference-architecture.yml)
+* Use the template to capture:
+  * A short context section: what this system does and the main requirements (scale, latency, availability, compliance, etc.).
+  * A high‑level architecture view: the main building blocks, how they interact, and how they embody cloud‑native characteristics like being distributable, observable, portable, interoperable, and resilient.
+  * The CNCF projects and other technologies you’re using, and why.
+  * A few key lessons learned (things you’d want your past self or peers to know).
 
-*Who: Acceptance should be done by the TAB members*
+That’s all you need to start. It does not have to be perfect. Rough diagrams, partial descriptions, and “work in progress” are totally fine for the first pass.
 
-Each submission should be reviewed by the TAB and accepted before the detailed work starts. The purpose of this step is to validate its relevance to the community and clarify any open items, potential overlaps with existing documents, etc.
+We’ll iterate together on diagrams, wording, and structure to align with the overall reference architecture site and get it ready for publication on architecture.cncf.io.
 
-Once accepted, work should start in expanding the content of the reference architecture.
+### Pull Request
 
-### 2b. Rejected
+If you have all the info you need, check [our template](https://github.com/cncf/tab/blob/main/operations/templates/template-reference-architecture.md) for reference architectures.
 
-*Who: Rejection should be done by the TAB members*
+Then branch from our repo and add yours [in here](https://github.com/cncf/architecture/tree/main/content/en/architectures). Submit the pull request and we'll pick it up from there.
 
-After a review by the assigned TAB member and consultation with the complete TAB a proposal can be rejected.
-
-Rejection can happen due to different reasons, such as a proposal being out of scope for cloud native architectures, excessive reliance on proprietary products, etc.
-
-### 3a. Reviewed
-
-*Who: One or more members of the TAB previously assigned to this reference architecture*
-
-Review of reference architectures is expected to be an iterative process between the submitters and the reviewers assigned by the TAB - usually TAB members. This process aims at keeping the content consistent across different submissions as well as ensuring the key take-aways are properly highlighted.
-
-### 3b. Feedback
-
-*Who: TAB members assigned to this reference architecture*
-
-Feedback should be provided for every reference architecture being rejected (see 2b above). Where appropriate, additional information regarding a potential later resubmission should also be included.
-
-### 4. Validated
-
-*Who: Technical Oversight Committee (TOC)*
-
-Reference architectures often include extensive information regarding the usage of projects in the CNCF, including the end user perspective on the project maturity and production readiness. These might in some cases conflict with the project maturity levels as set by the TOC.
-
-To prevent confusion and conflicting information, the TOC is consulted to validate the reference architecture. The TOC might, if appropriate, request the submitters add additional context information on the usage of a project and explanations on any conflicting views of the project maturity.
-
-### 5. Published
-
-*Who: Reference Architecture submitters, reviewers and CNCF staff*
-
-Once validated the new reference architecture is published under [https://architecture.cncf.io/](https://architecture.cncf.io/). This is done by CNCF staff in coordination with the submitters and the reviewers, collecting additional information relevant for the announcement.
-
-### 6. Announced
-
-*Who: CNCF Staff and TAB*
-
-After publication CNCF staff and TAB take care of the announcement of the new reference architecture via different mechanisms, at least:
-* As a news item in the monthly TAB public meeting
-* An email circulated to the end user mailing list
-* A message in the #enduser and #tab channels in the CNCF slack
