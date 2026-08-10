@@ -9,31 +9,30 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 ### Platinum Member Seats
 
 * [Alolita Sharma](https://github.com/alolita), Apple
+* Juliano Martinez, Adyen
 * Michael Amundson, CVS Health
 
 ### Gold Member Seats
 
-* [Henrik Blixt](https://github.com/hblixt), Intuit
+* [Xu Wang](https://github.com/gnawux), Ant Group
 
 ### Silver Member Seats
 
-* [Ben Somogyi](https://github.com/bsomogyi), Lockheed Martin
+* Ben Somogyi, Lockheed Martin
+* **[Joseph Sandoval](https://github.com/jrsapi), Adobe Inc (Vice Chair)**
 * [Kenta Tada](https://github.com/KentaTada), Toyota
-* [Mike Bowen](https://github.com/michael-bowen-sc), Blackrock
+
 
 ### At-large Seats
 
 * [Ahmed Bebars](https://github.com/abebars), The New York Times
-* [Garry Cairns](https://github.com/garry-cairns), JPMorgan
-* **[Joseph Sandoval](https://github.com/jrsapi), Vice-Chair, Adobe Inc**
+* [Mike Bowen](https://github.com/michael-bowen-sc), Blackrock
+* **[Ricardo Rocha](https://github.com/rochaporto), CERN (Chair)**
 
 ### TOC Appointed Seats
 
-* **[Ricardo Rocha](https://github.com/rochaporto), Chair, CERN**
-* [Katie Gamanji](https://github.com/kgamanji), Apple
-
-### Invited Seats
 * [Chad Beaudin](https://github.com/chadbeaudin), Boeing
+* [Katie Gamanji](https://github.com/kgamanji), Apple
    
 ## Purpose and Duties
 
@@ -98,7 +97,7 @@ The TAB and End User communities are available via multiple channels.
 * End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/g/cncf-enduser)
 * Slack at [https://cloud-native.slack.com/archives/C05T9P1HXR6](#tab) and [https://cloud-native.slack.com/archives/G95G3RZ25](#enduser): Join the [CNCF slack](https://slack.cncf.io/)
 
-If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](https://helpcenter.linuxfoundation.org/) or email [enduser-support@cncf.io](mailto:enduser-support@cncf.io).
+If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](https://helpcenter.linuxfoundation.org/) or email [support@cncf.io](mailto:support@cncf.io).
 
 ## Contribution
 
