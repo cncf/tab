@@ -1,0 +1,27 @@
+name: Validate governance data
+
+on:
+  pull_request:
+    paths:
+      - gov.yaml
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    name: Validate generated governance files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: generator/go.mod
+
+      - name: Generate governance files
+        working-directory: generator
+        run: go run .
+
+      - name: Verify generated files are committed
+        run: git diff --exit-code
