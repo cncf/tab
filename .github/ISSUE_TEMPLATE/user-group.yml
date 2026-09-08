@@ -1,0 +1,74 @@
+name: "CNCF User Group Proposal"
+description: "Propose a long lived CNCF User Group for TAB review"
+title: "[User Group] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Purpose of this issue
+
+        Use this form to propose a long lived CNCF User Group (UG) for TAB review. A UG serves a documented, outstanding cloud native domain gap and, once approved, reports to the TAB.
+
+        Before submitting, review the [CNCF User Group Governance](https://github.com/cncf/tab/blob/main/governance/ug-governance.md). Discussion oriented groups should instead apply as [CNCF Community Groups](https://github.com/cncf/communitygroups#how-to-apply), and short term, deliverable focused work should be proposed as an initiative.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed User Group name
+      description: Provide a clear, domain focused name.
+      placeholder: Public Sector User Group
+    validations:
+      required: true
+  - type: textarea
+    id: charter
+    attributes:
+      label: Proposed charter
+      description: Link to the proposed charter. It must define the group's scope, goals, operational model, and any deviations from UG Governance.
+      placeholder: https://github.com/cncf/tab/pull/... 
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Documented ecosystem gap
+      description: Explain the outstanding technical domain coverage, user needs, and direction gap this UG will address. Include supporting evidence or links.
+    validations:
+      required: true
+  - type: textarea
+    id: scope-and-overlap
+    attributes:
+      label: Scope and overlap
+      description: Define what is in and out of scope. Identify related UGs, TAGs, TOC groups, and community groups, and explain how this group will coordinate with or differ from them.
+    validations:
+      required: true
+  - type: textarea
+    id: prior-work
+    attributes:
+      label: Prior community work
+      description: Describe the existing group or community activity that supports formation as a long lived UG, including completed initiatives, deliverables, participation, and relevant links.
+    validations:
+      required: true
+  - type: textarea
+    id: leadership-and-roles
+    attributes:
+      label: Proposed chairs, leads, and roles
+      description: List proposed chairs and all other roles. For each, describe responsibilities, membership requirements, appointment or election process, term or lifecycle, and inactivity policy.
+    validations:
+      required: true
+  - type: textarea
+    id: operations
+    attributes:
+      label: Operations and metadata plan
+      description: Explain how the UG will maintain public metadata for its leads and initiatives; hold at least one regularly scheduled public monthly meeting recorded and uploaded to YouTube; and publish meeting notes and tracked follow up actions.
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Proposal acknowledgements
+      options:
+        - label: This proposal is for a long lived UG, not a short term initiative or a discussion only community group.
+          required: true
+        - label: The proposed chairs understand that TAB approval is required and that chairs must meet the governance requirements.
+          required: true
+        - label: The proposed charter documents all required roles, scope, overlaps, and operational deviations.
+          required: true
