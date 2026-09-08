@@ -1,0 +1,76 @@
+tab:
+  - name: End User Technical Advisory Board
+    dir: "/"
+    mission_statement: >
+      The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of
+      end users within the CNCF community. It plays a key role in advancing topics
+      of concern to end users, enhancing visibility into end user adoption of CNCF
+      projects, and raising awareness about the needs and perspectives of end users
+      in the cloud native ecosystem.
+    leadership:
+      - name: Ricardo Rocha
+        github: rochaporto
+        company: CERN
+        role: Chair & At-large Seat
+      - name: Joseph Sandoval
+        github: jrsapi
+        company: Adobe Inc
+        role: Vice Chair & Silver Member Seat
+      - name: Kenta Tada
+        github: KentaTada
+        company: Toyota
+        role: APAC Chair & Silver Member Seat
+    members:
+      - name: Alolita Sharma
+        github: alolita
+        company: Apple
+        role: Platinum Member Seat
+      - name: Michael Amundson
+        github: ma-cvs
+        company: CVS Health
+        role: Platinum Member Seat
+      - name: Juliano Martinez
+        github: ncode
+        company: Adyen
+        role: Platinum Member Seat
+      - name: Xu Wang
+        github: gnawux
+        company: Ant Group
+        role: Gold Member Seat
+      - name: Ben Somogyi
+        company: Lockheed Martin
+        role: Silver Member Seat
+      - name: Ahmed Bebars
+        github: abebars
+        company: The New York Times
+        role: At-large Seat
+      - name: Mike Bowen
+        github: michael-bowen-sc
+        company: Blackrock
+        role: At-large Seat
+      - name: Chad Beaudin
+        github: chadbeaudin
+        company: Boeing
+        role: TOC Appointed Seat
+      - name: Katie Gamanji
+        github: kgamanji
+        company: Apple
+        role: TOC Appointed Seat
+    emeritus:
+      - name: Amr Abdelhalem
+        github: ahalem
+        company: Fidelity Investments
+        role: Gold Member Representative
+    meetings:
+      - description: "TAB Public Meeting — 3rd Monday of every month at 8AM PT"
+        meeting_url: "https://zoom.us/j/96509520391"
+        meeting_notes_url: "https://github.com/orgs/cncf/projects/60"
+    contact:
+      slack: "https://cloud-native.slack.com/archives/C05T9P1HXR6"
+      slack_channel: tab
+      mailing_list: cncf-enduser@lists.cncf.io
+      github_teams:
+        - name: tab
+          description: End User Technical Advisory Board members
+
+user_groups: []
