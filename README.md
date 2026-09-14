@@ -6,26 +6,26 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 
 ## Leadership
 
-| Name | GitHub | Company | Role |
-|------|--------|---------|------|
-| [Ricardo Rocha](https://github.com/rochaporto) | @rochaporto | CERN | Chair & At-large Seat |
-| [Joseph Sandoval](https://github.com/jrsapi) | @jrsapi | Adobe Inc | Vice Chair & Silver Member Seat |
-| [Kenta Tada](https://github.com/KentaTada) | @KentaTada | Toyota | APAC Chair & Silver Member Seat |
+| Name | GitHub | Company | Role | Seat |
+|------|--------|---------|------|------|
+| [Ricardo Rocha](https://github.com/rochaporto) | @rochaporto | CERN | Chair | At-large Seat |
+| [Joseph Sandoval](https://github.com/jrsapi) | @jrsapi | Adobe Inc | Vice Chair | Silver Member Seat |
+| [Kenta Tada](https://github.com/KentaTada) | @KentaTada | Toyota | APAC Chair | Silver Member Seat |
 
 
 ## Members
 
-| Name | GitHub | Company | Role |
-|------|--------|---------|------|
-| [Alolita Sharma](https://github.com/alolita) | @alolita | Apple | Platinum Member Seat |
-| [Michael Amundson](https://github.com/ma-cvs) | @ma-cvs | CVS Health | Platinum Member Seat |
-| [Juliano Martinez](https://github.com/ncode) | @ncode | Adyen | Platinum Member Seat |
-| [Xu Wang](https://github.com/gnawux) | @gnawux | Ant Group | Gold Member Seat |
-| Ben Somogyi | @ | Lockheed Martin | Silver Member Seat |
-| [Ahmed Bebars](https://github.com/abebars) | @abebars | The New York Times | At-large Seat |
-| [Mike Bowen](https://github.com/michael-bowen-sc) | @michael-bowen-sc | Blackrock | At-large Seat |
-| [Chad Beaudin](https://github.com/chadbeaudin) | @chadbeaudin | Boeing | TOC Appointed Seat |
-| [Katie Gamanji](https://github.com/kgamanji) | @kgamanji | Apple | TOC Appointed Seat |
+| Name | GitHub | Company | Role | Seat |
+|------|--------|---------|------|------|
+| [Alolita Sharma](https://github.com/alolita) | @alolita | Apple | Member | Platinum Member Seat |
+| [Michael Amundson](https://github.com/ma-cvs) | @ma-cvs | CVS Health | Member | Platinum Member Seat |
+| [Juliano Martinez](https://github.com/ncode) | @ncode | Adyen | Member | Platinum Member Seat |
+| [Xu Wang](https://github.com/gnawux) | @gnawux | Ant Group | Member | Gold Member Seat |
+| Ben Somogyi | @ | Lockheed Martin | Member | Silver Member Seat |
+| [Ahmed Bebars](https://github.com/abebars) | @abebars | The New York Times | Member | At-large Seat |
+| [Mike Bowen](https://github.com/michael-bowen-sc) | @michael-bowen-sc | Blackrock | Member | At-large Seat |
+| [Chad Beaudin](https://github.com/chadbeaudin) | @chadbeaudin | Boeing | Member | TOC Appointed Seat |
+| [Katie Gamanji](https://github.com/kgamanji) | @kgamanji | Apple | Member | TOC Appointed Seat |
 
 
 ## Emeritus
