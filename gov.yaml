@@ -11,56 +11,59 @@ tab:
       - name: Ricardo Rocha
         github: rochaporto
         company: CERN
-        role: Chair & At-large Seat
+        role: Chair
+        seat: At-large Seat
       - name: Joseph Sandoval
         github: jrsapi
         company: Adobe Inc
-        role: Vice Chair & Silver Member Seat
+        role: Vice Chair
+        seat: Silver Member Seat
       - name: Kenta Tada
         github: KentaTada
         company: Toyota
-        role: APAC Chair & Silver Member Seat
+        role: APAC Chair
+        seat: Silver Member Seat
     members:
       - name: Alolita Sharma
         github: alolita
         company: Apple
-        role: Platinum Member Seat
+        seat: Platinum Member Seat
       - name: Michael Amundson
         github: ma-cvs
         company: CVS Health
-        role: Platinum Member Seat
+        seat: Platinum Member Seat
       - name: Juliano Martinez
         github: ncode
         company: Adyen
-        role: Platinum Member Seat
+        seat: Platinum Member Seat
       - name: Xu Wang
         github: gnawux
         company: Ant Group
-        role: Gold Member Seat
+        seat: Gold Member Seat
       - name: Ben Somogyi
         company: Lockheed Martin
-        role: Silver Member Seat
+        seat: Silver Member Seat
       - name: Ahmed Bebars
         github: abebars
         company: The New York Times
-        role: At-large Seat
+        seat: At-large Seat
       - name: Mike Bowen
         github: michael-bowen-sc
         company: Blackrock
-        role: At-large Seat
+        seat: At-large Seat
       - name: Chad Beaudin
         github: chadbeaudin
         company: Boeing
-        role: TOC Appointed Seat
+        seat: TOC Appointed Seat
       - name: Katie Gamanji
         github: kgamanji
         company: Apple
-        role: TOC Appointed Seat
+        seat: TOC Appointed Seat
     emeritus:
       - name: Amr Abdelhalem
         github: ahalem
         company: Fidelity Investments
-        role: Gold Member Representative
+        seat: Gold Member Representative
     meetings:
       - description: "TAB Public Meeting — 3rd Monday of every month at 8AM PT"
         meeting_url: "https://zoom.us/j/96509520391"

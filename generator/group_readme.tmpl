@@ -7,19 +7,19 @@
 {{ if .Leadership }}
 ## Leadership
 
-| Name | GitHub | Company | Role |
-|------|--------|---------|------|
+| Name | GitHub | Company | Role | Seat |
+|------|--------|---------|------|------|
 {{ range .Leadership -}}
-| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }}Chair{{ end }} |
+| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }} - {{ end }} | {{ .Seat }} |
 {{ end -}}
 {{ end }}
 {{ if .Members }}
 ## Members
 
-| Name | GitHub | Company | Role |
-|------|--------|---------|------|
+| Name | GitHub | Company | Role | Seat |
+|------|--------|---------|------|------|
 {{ range .Members -}}
-| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }}Member{{ end }} |
+| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }}Member{{ end }} | {{ .Seat }} |
 {{ end -}}
 {{ end }}
 {{ if .Emeritus }}
