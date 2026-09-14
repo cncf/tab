@@ -1,0 +1,62 @@
+# {{ .Name }}
+
+{{ if .MissionStatement }}{{ .MissionStatement }}{{ end }}
+{{ if .CharterLink }}
+[Charter]({{ .CharterLink }})
+{{ end }}
+{{ if .Leadership }}
+## Leadership
+
+| Name | GitHub | Company | Role |
+|------|--------|---------|------|
+{{ range .Leadership -}}
+| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }}Chair{{ end }} |
+{{ end -}}
+{{ end }}
+{{ if .Members }}
+## Members
+
+| Name | GitHub | Company | Role |
+|------|--------|---------|------|
+{{ range .Members -}}
+| {{ githubLink . }} | @{{ .GitHub }} | {{ .Company }} | {{ if .Role }}{{ .Role }}{{ else }}Member{{ end }} |
+{{ end -}}
+{{ end }}
+{{ if .Emeritus }}
+## Emeritus
+
+{{ range .Emeritus -}}
+* {{ githubLink . }}{{ if .Company }} ({{ .Company }}){{ end }}
+{{ end -}}
+{{ end }}
+{{ if .Contact.Slack }}
+## Contact
+
+{{ if .Contact.Slack -}}
+* Slack: [#{{ .Contact.SlackChannel }}]({{ .Contact.Slack }})
+{{ end -}}
+{{ if .Contact.MailingList -}}
+* Mailing List: [{{ .Contact.MailingList }}](mailto:{{ .Contact.MailingList }})
+{{ end -}}
+{{ if .Contact.GitHubTeams -}}
+* GitHub Teams:
+{{ range .Contact.GitHubTeams -}}
+  * [@cncf/{{ .Name }}](https://github.com/orgs/cncf/teams/{{ .Name }}){{ if .Description }} — {{ .Description }}{{ end }}
+{{ end -}}
+{{ end -}}
+{{ if .Contact.Liaison -}}
+* TOC Liaison:
+{{ range .Contact.Liaison -}}
+  * {{ githubLink . }}
+{{ end -}}
+{{ end -}}
+{{ end }}
+{{ if .Meetings }}
+## Meetings
+
+{{ range .Meetings -}}
+* {{ .Description }}{{ if .MeetingURL }} — [Join]({{ .MeetingURL }}){{ end }}
+{{ if .MeetingNotesURL }}  * [Meeting Notes]({{ .MeetingNotesURL }}){{ end }}
+{{ if .RecordingsURL }}  * [Recordings]({{ .RecordingsURL }}){{ end }}
+{{ end -}}
+{{ end }}

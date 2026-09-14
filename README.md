@@ -1,39 +1,54 @@
-# CNCF End User Technical Advisory Board (TAB)
-
-## Overview
+# End User Technical Advisory Board
 
 The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end users within the CNCF community. It plays a key role in advancing topics of concern to end users, enhancing visibility into end user adoption of CNCF projects, and raising awareness about the needs and perspectives of end users in the cloud native ecosystem.
 
+
+
+## Leadership
+
+| Name | GitHub | Company | Role |
+|------|--------|---------|------|
+| [Ricardo Rocha](https://github.com/rochaporto) | @rochaporto | CERN | Chair & At-large Seat |
+| [Joseph Sandoval](https://github.com/jrsapi) | @jrsapi | Adobe Inc | Vice Chair & Silver Member Seat |
+| [Kenta Tada](https://github.com/KentaTada) | @KentaTada | Toyota | APAC Chair & Silver Member Seat |
+
+
 ## Members
 
-### Platinum Member Seats
-
-* [Alolita Sharma](https://github.com/alolita), Apple
-* Juliano Martinez, Adyen
-* Michael Amundson, CVS Health
-
-### Gold Member Seats
-
-* [Xu Wang](https://github.com/gnawux), Ant Group
-
-### Silver Member Seats
-
-* Ben Somogyi, Lockheed Martin
-* **[Joseph Sandoval](https://github.com/jrsapi), Adobe Inc (Vice Chair)**
-* [Kenta Tada](https://github.com/KentaTada), Toyota
+| Name | GitHub | Company | Role |
+|------|--------|---------|------|
+| [Alolita Sharma](https://github.com/alolita) | @alolita | Apple | Platinum Member Seat |
+| [Michael Amundson](https://github.com/ma-cvs) | @ma-cvs | CVS Health | Platinum Member Seat |
+| [Juliano Martinez](https://github.com/ncode) | @ncode | Adyen | Platinum Member Seat |
+| [Xu Wang](https://github.com/gnawux) | @gnawux | Ant Group | Gold Member Seat |
+| Ben Somogyi | @ | Lockheed Martin | Silver Member Seat |
+| [Ahmed Bebars](https://github.com/abebars) | @abebars | The New York Times | At-large Seat |
+| [Mike Bowen](https://github.com/michael-bowen-sc) | @michael-bowen-sc | Blackrock | At-large Seat |
+| [Chad Beaudin](https://github.com/chadbeaudin) | @chadbeaudin | Boeing | TOC Appointed Seat |
+| [Katie Gamanji](https://github.com/kgamanji) | @kgamanji | Apple | TOC Appointed Seat |
 
 
-### At-large Seats
+## Emeritus
 
-* [Ahmed Bebars](https://github.com/abebars), The New York Times
-* [Mike Bowen](https://github.com/michael-bowen-sc), Blackrock
-* **[Ricardo Rocha](https://github.com/rochaporto), CERN (Chair)**
+* [Amr Abdelhalem](https://github.com/ahalem) (Fidelity Investments)
 
-### TOC Appointed Seats
 
-* [Chad Beaudin](https://github.com/chadbeaudin), Boeing
-* [Katie Gamanji](https://github.com/kgamanji), Apple
-   
+## Contact
+
+* Slack: [#tab](https://cloud-native.slack.com/archives/C05T9P1HXR6)
+* Mailing List: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io)
+* GitHub Teams:
+* [@cncf/tab](https://github.com/orgs/cncf/teams/tab) — End User Technical Advisory Board members
+
+
+## Meetings
+
+* TAB Public Meeting — 3rd Monday of every month at 8AM PT — [Join](https://zoom.us/j/96509520391)
+  * [Meeting Notes](https://github.com/orgs/cncf/projects/60)
+
+
+<!-- BEGIN CUSTOM CONTENT -->
+
 ## Purpose and Duties
 
 The End User TAB is tasked with:
@@ -81,44 +96,12 @@ The End User TAB may:
 * Advise the Governing Board and create SIGs or subcommittees for specialized topics.
 * Develop policies and procedures consistent with this charter.
 
-## Meetings
-
-The TAB hosts a public meeting on the 3rd Monday of every month at 8AM PT (USA Pacific Time; [Convert to local time zone](http://www.thetimezoneconverter.com/?t=8:00AM&tz=San%20Francisco)).
-
-https://zoom.us/j/96509520391 Passcode: 407305
-
-Here is a [Google calendar for all public CNCF events](https://goo.gl/eyutah). This calendar is also available on the [CNCF Website](https://www.cncf.io/calendar/).
-
-The meeting agenda and minutes are kept on [this github project](https://github.com/orgs/cncf/projects/60).
-
-## Communication
-
-The TAB and End User communities are available via multiple channels.
-* End User mailing list: [cncf-enduser@lists.cncf.io](mailto:cncf-enduser@lists.cncf.io), [public mailing archive](https://lists.cncf.io/g/cncf-enduser)
-* Slack at [https://cloud-native.slack.com/archives/C05T9P1HXR6](#tab) and [https://cloud-native.slack.com/archives/G95G3RZ25](#enduser): Join the [CNCF slack](https://slack.cncf.io/)
-
-If your organization is already a member of the [End User Community](https://www.cncf.io/enduser), you can request additional access via the [CNCF Member Desk](https://helpcenter.linuxfoundation.org/) or email [support@cncf.io](mailto:support@cncf.io).
-
-## Contribution
-
-Join our [public meetings](#meetings) or one of the End User Groups:
-* Developer Experience User Group
-* [Research User Group](https://github.com/cncf/research-user-group)
-* [Public Sector User Group](https://github.com/cncf/public-sector-user-group)
-
 ## Case Studies
 
 The CNCF produces and lists [case studies](https://www.cncf.io/case-studies) for our end users and projects.
 
 If you're interested in contributing a case study, please reference our [CNCF End User Stories Guidelines](https://github.com/cncf/foundation/blob/master/case-study-guidelines.md).
 
-## Community Events
-
-### Cloud Native Executive Summit
-
-The Cloud Native Executive Summit is an exclusive event to hear from key decision makers and leaders within the cloud native and open source world with the goal of sharing best practices, use cases, and future planning for furthering CNCF’s mission of making cloud native ubiquitous.
-
-If you would like to participate in the Cloud Native Executive Summit, please reach out to [enduser-support@cncf.io](mailto:enduser-support@cncf.io) for more information.
 
 ## Join the End User Community
 
@@ -147,3 +130,6 @@ The CNCF End User Community enables you to:
 - Work with other organizations in the [TODO Group](https://todogroup.org) to build an open source culture and open source program office within your organization.
 
 - Educate leadership and legal teams in open source via [Linux Foundation leadership and community events](https://events.linuxfoundation.org/about/calendar/?_sft_lfevent-category=leadership-community-events).
+
+
+<!-- END CUSTOM CONTENT -->
