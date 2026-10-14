@@ -1,0 +1,22 @@
+audit:
+  enabled: true
+profiles:
+  default:
+    duration: 26w
+    pass_threshold: 66
+    periodic_status_check: "1 day"
+    allowed_voters:
+      teams:
+        - cncf-tab
+      exclude_team_maintainers: true
+    close_on_passing: true
+    close_on_passing_min_wait: "1 days"
+    announcements:
+  1wk:
+    duration: 1w
+    pass_threshold: 66
+    allowed_voters:
+      teams:
+        - cncf-tab
+      exclude_team_maintainers: true
+    close_on_passing: true
