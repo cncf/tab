@@ -76,4 +76,27 @@ tab:
         - name: tab
           description: End User Technical Advisory Board members
 
-user_groups: []
+user_groups:
+  - name: Public Sector User Group
+    dir: public-sector
+    mission_statement: >
+      The CNCF Public Sector User Group aims to serve as a hub for discussing and
+      advancing cloud computing within the public sector, utilizing cloud native
+      technologies. This includes enumerating current practices and identifying
+      gaps. The group also directs efforts to improve public sector workflows
+      relevant to the cloud computing ecosystem.
+    charter_link: "https://github.com/cncf/public-sector-user-group/blob/main/charter.md"
+    leadership:
+      - name: will
+        github: wcrum
+        role: Co-Chair
+      - name: Daniel Moch
+        github: djmoch
+        role: Co-Chair
+    meetings:
+      - description: "Biweekly on Wednesdays at 2 PM EST / 1900 UTC"
+        meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/98294572507"
+        meeting_notes_url: "https://docs.google.com/document/d/1P0zc4p5lC0HcfAz95tB-M1oELt_wfoOeZUOPF4Y3Kz8/edit"
+    contact:
+      slack: "https://cloud-native.slack.com/archives/C04RQ9L9KFS"
+      slack_channel: ug-public-sector
