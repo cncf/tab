@@ -119,7 +119,7 @@ The expected minimum time commitment is at least 2-4 hours of work per week but 
 
 * **MUST** be approved by the TAB.  
 * **MUST** adhere to the [Technical Leadership Principles].  
-* Membership **MUST** be tracked alongside the TAG metadata.  
+* Membership **MUST** be tracked alongside the UG metadata.
 * **MUST** have prior experience within the CNCF, but **MAY** be approved by the TAB for an explicitly documented reason such as extensive domain expertise, formation of a new governing body (e.g., new UG, or demonstrating significant aptitude for people & community management.
 
 ##### Duties
