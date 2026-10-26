@@ -1,6 +1,6 @@
 # CNCF User Group Governance
 
-**NOTE:** This document is a starting point. It is expected to change and be refined as User Groups take
+**NOTE:** This document is a starting point. It is expected to change and be refined as User Groups formed and operated.
 
 This document outlines the scope and responsibilities of the CNCF User Groups
 
@@ -14,11 +14,11 @@ The CNCF User Groups are comprised of four types of groups that serve different 
 
 - [CNCF User Group Governance](#cncf-user-group-governance)
 - [Keywords](#keywords)
-- [User Groups (UGs)](#user-groups-\(ugs\))
+- [User Groups (UGs)](#user-groups-ugs)
   - [Goals](#goals)
   - [Formation](#formation)
   - [Requirements](#requirements)
-  - [Roles, Terms, and Elections](#roles,-terms,-and-elections)
+  - [Roles, Terms, and Elections](#roles-terms-and-elections)
     - [Chair](#chair)
       - [Requirements](#requirements-1)
       - [Duties](#duties)
@@ -34,7 +34,7 @@ The CNCF User Groups are comprised of four types of groups that serve different 
   - [Roles](#roles)
 - [Technical Community Groups](#technical-community-groups)
   - [Formation](#formation-2)
-  - [Roles, Terms, and Elections](#roles,-terms,-and-elections-1)
+  - [Roles, Terms, and Elections](#roles-terms-and-elections-1)
     - [Organizer](#organizer)
       - [Requirements](#requirements-3)
       - [Duties](#duties-1)
