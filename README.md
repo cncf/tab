@@ -21,7 +21,7 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 | [Michael Amundson](https://github.com/ma-cvs) | @ma-cvs | CVS Health | Member | Platinum Member Seat |
 | [Juliano Martinez](https://github.com/ncode) | @ncode | Adyen | Member | Platinum Member Seat |
 | [Xu Wang](https://github.com/gnawux) | @gnawux | Ant Group | Member | Gold Member Seat |
-| Ben Somogyi | @ | Lockheed Martin | Member | Silver Member Seat |
+| [Ben Somogyi](https://github.com/ride808) | @ride808 | Lockheed Martin | Member | Silver Member Seat |
 | [Ahmed Bebars](https://github.com/abebars) | @abebars | The New York Times | Member | At-large Seat |
 | [Mike Bowen](https://github.com/michael-bowen-sc) | @michael-bowen-sc | Blackrock | Member | At-large Seat |
 | [Chad Beaudin](https://github.com/chadbeaudin) | @chadbeaudin | Boeing | Member | TOC Appointed Seat |
