@@ -41,6 +41,7 @@ tab:
         company: Ant Group
         seat: Gold Member Seat
       - name: Ben Somogyi
+        github: ride808
         company: Lockheed Martin
         seat: Silver Member Seat
       - name: Ahmed Bebars
@@ -100,3 +101,21 @@ user_groups:
     contact:
       slack: "https://cloud-native.slack.com/archives/C04RQ9L9KFS"
       slack_channel: ug-public-sector
+  - name: Telecom User Group
+    dir: telecom
+    mission_statement: >
+      The CNCF Telecom User Group represents the architectural and operational
+      requirements of telecom networks and cloud native telecom applications.
+      It connects telecom industry needs with CNCF projects, including needs
+      related to multi-networking, configuration management, and lifecycle
+      management across distributed edge locations.
+    charter_link: "https://docs.google.com/document/d/1tadJTme4JeT-cIYpD3dGiXqtV9BdSeVWpbPYMbEHhyo/edit?usp=sharing"
+    leadership:
+      - name: Riccardo Gasparetto Stori
+        github: rgstori
+        company: Vodafone
+        role: Proposed Co-Chair
+      - name: Gergely Csatari
+        github: CsatariGergely
+        company: Nokia
+        role: Proposed Co-Chair
