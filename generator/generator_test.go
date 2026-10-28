@@ -635,4 +635,23 @@ func TestRealTemplate_MinimalGroup(t *testing.T) {
 	if strings.Contains(content, "## Emeritus") {
 		t.Error("should not render Emeritus section when empty")
 	}
+
+	emptyOptionalFields := td
+	emptyOptionalFields.Members = []Person{}
+	emptyOptionalFields.Emeritus = []Person{}
+	emptyOptionalFields.Meetings = []Meeting{}
+	emptyOptionalFields.Contact = Contact{}
+
+	emptyOut := filepath.Join(dir, "README-empty-fields.md")
+	if err := writeTemplate(tmpl, emptyOptionalFields, emptyOut); err != nil {
+		t.Fatalf("template execution with empty optional fields failed: %v", err)
+	}
+
+	emptyData, err := os.ReadFile(emptyOut)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if string(emptyData) != string(data) {
+		t.Errorf("empty optional fields changed rendered README:\n got: %q\nwant: %q", emptyData, data)
+	}
 }

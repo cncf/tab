@@ -10,61 +10,97 @@ tab:
     leadership:
       - name: Ricardo Rocha
         github: rochaporto
+        slack: ""
         company: CERN
         role: Chair
         seat: At-large Seat
+        term: {}
       - name: Joseph Sandoval
         github: jrsapi
+        slack: ""
         company: Adobe Inc
         role: Vice Chair
         seat: Silver Member Seat
+        term: {}
       - name: Kenta Tada
         github: KentaTada
+        slack: ""
         company: Toyota
         role: APAC Chair
         seat: Silver Member Seat
+        term: {}
     members:
       - name: Alolita Sharma
         github: alolita
+        slack: ""
         company: Apple
+        role: ""
         seat: Platinum Member Seat
+        term: {}
       - name: Michael Amundson
         github: ma-cvs
+        slack: ""
         company: CVS Health
+        role: ""
         seat: Platinum Member Seat
+        term: {}
       - name: Juliano Martinez
         github: ncode
+        slack: ""
         company: Adyen
+        role: ""
         seat: Platinum Member Seat
+        term: {}
       - name: Xu Wang
         github: gnawux
+        slack: ""
         company: Ant Group
+        role: ""
         seat: Gold Member Seat
+        term: {}
       - name: Ben Somogyi
         github: ride808
+        slack: ""
         company: Lockheed Martin
+        role: ""
         seat: Silver Member Seat
+        term: {}
       - name: Ahmed Bebars
         github: abebars
+        slack: ""
         company: The New York Times
+        role: ""
         seat: At-large Seat
+        term: {}
       - name: Mike Bowen
         github: michael-bowen-sc
+        slack: ""
         company: Blackrock
+        role: ""
         seat: At-large Seat
+        term: {}
       - name: Chad Beaudin
         github: chadbeaudin
+        slack: ""
         company: Boeing
+        role: ""
         seat: TOC Appointed Seat
+        term: {}
       - name: Katie Gamanji
         github: kgamanji
+        slack: ""
         company: Apple
+        role: ""
         seat: TOC Appointed Seat
+        term: {}
     emeritus:
       - name: Amr Abdelhalem
         github: ahalem
+        slack: ""
         company: Fidelity Investments
+        role: ""
         seat: Gold Member Representative
+        term: {}
     meetings:
       - description: "TAB Public Meeting — 3rd Monday of every month at 8AM PT"
         meeting_url: "https://zoom.us/j/96509520391"
@@ -90,10 +126,20 @@ user_groups:
     leadership:
       - name: will
         github: wcrum
+        slack: ""
+        company: ""
         role: Co-Chair
+        seat: ""
+        term: {}
       - name: Daniel Moch
         github: djmoch
+        slack: ""
+        company: ""
         role: Co-Chair
+        seat: ""
+        term: {}
+    members: []
+    emeritus: []
     meetings:
       - description: "Biweekly on Wednesdays at 2 PM EST / 1900 UTC"
         meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/98294572507"
@@ -113,12 +159,22 @@ user_groups:
     leadership:
       - name: Riccardo Gasparetto Stori
         github: rgstori
+        slack: ""
         company: Vodafone
         role: Proposed Co-Chair
+        seat: ""
+        term: {}
       - name: Gergely Csatari
         github: CsatariGergely
+        slack: ""
         company: Nokia
         role: Proposed Co-Chair
+        seat: ""
+        term: {}
+    members: []
+    emeritus: []
+    meetings: []
+    contact: {}
   - name: Platform Engineering User Group
     dir: platform-engineering
     mission_statement: >
@@ -129,11 +185,26 @@ user_groups:
     charter_link: "https://github.com/Cloud-Native-Platform-Engineering/cnpe-community/tree/main/platforms-wg/charter"
     leadership:
       - name: Colin Griffin
+        github: ""
+        slack: ""
+        company: ""
         role: Proposed Co-Chair
+        seat: ""
+        term: {}
       - name: Chris Plank
+        github: ""
+        slack: ""
+        company: ""
         role: Proposed Co-Chair
+        seat: ""
+        term: {}
       - name: Atul Sharma
+        github: ""
+        slack: ""
+        company: ""
         role: Proposed Co-Chair
+        seat: ""
+        term: {}
     members: []
     emeritus: []
     meetings: []
