@@ -119,3 +119,18 @@ user_groups:
         github: CsatariGergely
         company: Nokia
         role: Proposed Co-Chair
+  - name: Platform Engineering User Group
+    dir: platform-engineering
+    mission_statement: >
+      The CNCF Platform Engineering User Group brings together practitioners,
+      platform consumers, developers, maintainers, and providers to share
+      knowledge and advance the practice of building and operating cloud native
+      platforms.
+    charter_link: "https://github.com/Cloud-Native-Platform-Engineering/cnpe-community/tree/main/platforms-wg/charter"
+    leadership:
+      - name: Colin Griffin
+        role: Proposed Co-Chair
+      - name: Chris Plank
+        role: Proposed Co-Chair
+      - name: Atul Sharma
+        role: Proposed Co-Chair
