@@ -1,3 +1,51 @@
+# Governance data schema
+#
+# Top level:
+#   tab:        List of TAB groups.
+#   user_groups: List of User Groups.
+#
+# Each group supports:
+#   name:             Group name (required).
+#   dir:              Output directory; defaults to a slug of name ("/" for root).
+#   mission_statement: Optional description; rendered when non-empty.
+#   charter_link:     Optional URL to the group's charter.
+#   label:            Optional label metadata (accepted by the generator).
+#   leadership:       Optional list of people leading the group.
+#   members:          Optional list of current members.
+#   emeritus:         Optional list of emeritus members.
+#   meetings:         Optional list of meeting details.
+#   contact:          Optional contact information.
+#
+# Person entries in leadership, members, emeritus, and contact.liaison support:
+#   name:    Person's display name (required).
+#   github:  GitHub username; omit or use "" when unavailable.
+#   slack:   Slack username; optional.
+#   company: Company or organization; optional.
+#   role:    Role in the group; optional.
+#   seat:    Seat or representation type; optional.
+#   term:    Optional mapping with start and end date strings:
+#              term:
+#                start: "YYYY-MM"
+#                end: "YYYY-MM"
+#
+# Each meeting supports:
+#   description:     Meeting schedule or description (required).
+#   meeting_url:     Optional URL to join the meeting.
+#   meeting_notes_url: Optional URL to meeting notes.
+#   recordings_url:  Optional URL to recordings.
+#
+# Contact supports:
+#   slack:        Optional Slack channel URL.
+#   slack_channel: Optional Slack channel name (without "#").
+#   mailing_list: Optional mailing list email address.
+#   github_teams: Optional list of GitHub teams, each with:
+#                   name:        Team slug (required).
+#                   description: Optional description.
+#   liaison:      Optional list of people serving as TOC liaisons.
+#
+# Empty optional lists/maps ([], {}) are valid and do not create README sections.
+# Empty strings are accepted; for example, blank GitHub handles display as "-".
+# Note: contact details are currently rendered only when contact.slack is set.
 tab:
   - name: End User Technical Advisory Board
     dir: "/"
