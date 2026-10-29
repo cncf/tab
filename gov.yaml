@@ -257,3 +257,37 @@ user_groups:
     emeritus: []
     meetings: []
     contact: {}
+  - name: Research User Group
+    dir: research
+    mission_statement: >
+      The CNCF Research User Group brings together research organisations and
+      collaborations running cloud native technologies to address use cases
+      that differ from enterprise workloads, including scientific batch and
+      HPC/AI workloads, scientific workflows, interactive compute environments,
+      accelerators and big data, and federated infrastructure across multiple
+      institutes. It shares best practices suited to small teams and research
+      groups and provides a structured channel for feedback to CNCF projects.
+    charter_link: "https://github.com/cncf/research-user-group/pull/42"
+    leadership:
+      - name: Carolina Lindqvist
+        github: carolili
+        slack: ""
+        company: EPFL
+        role: Proposed Co-Chair
+        seat: ""
+        term: {}
+      - name: Satarupa Deb
+        github: Satarupa22-SD
+        slack: ""
+        company: Independent
+        role: Proposed Co-Chair
+        seat: ""
+        term: {}
+    members: []
+    emeritus: []
+    meetings:
+      - description: "First and third Wednesday of every month at 17:00 CET / 8:00 PT"
+        meeting_notes_url: "https://docs.google.com/document/d/1vvXxW4Cd4P5gcmWGz-_yKbgJex2_NlSWaHtsk_56TnA/edit"
+    contact:
+      slack: "https://cloud-native.slack.com/archives/CTW1NRLBW"
+      slack_channel: ug-research
