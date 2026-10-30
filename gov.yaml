@@ -172,17 +172,17 @@ user_groups:
       relevant to the cloud computing ecosystem.
     charter_link: "https://github.com/cncf/public-sector-user-group/blob/main/charter.md"
     leadership:
-      - name: will
+      - name: Will Crum
         github: wcrum
-        slack: ""
-        company: ""
+        slack: "William Crum"
+        company: "Defense Unicorns"
         role: Co-Chair
         seat: ""
         term: {}
       - name: Daniel Moch
         github: djmoch
-        slack: ""
-        company: ""
+        slack: "djmoch"
+        company: "Lockheed Martin"
         role: Co-Chair
         seat: ""
         term: {}
