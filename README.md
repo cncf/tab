@@ -18,7 +18,7 @@ The CNCF End User Technical Advisory Board (TAB) acts as a vital voice of end us
 | Name | GitHub | Company | Role | Seat |
 |------|--------|---------|------|------|
 | [Alolita Sharma](https://github.com/alolita) | @alolita | Apple | Member | Platinum Member Seat |
-| [Michael Amundson](https://github.com/ma-cvs) | @ma-cvs | CVS Health | Member | Platinum Member Seat |
+| [Michael Amundson](https://github.com/mjamu) | @mjamu | CVS Health | Member | Platinum Member Seat |
 | [Juliano Martinez](https://github.com/ncode) | @ncode | Adyen | Member | Platinum Member Seat |
 | [Xu Wang](https://github.com/gnawux) | @gnawux | Ant Group | Member | Gold Member Seat |
 | [Ben Somogyi](https://github.com/ride808) | @ride808 | Lockheed Martin | Member | Silver Member Seat |
