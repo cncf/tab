@@ -10,8 +10,8 @@ The CNCF Public Sector User Group aims to serve as a hub for discussing and adva
 
 | Name | GitHub | Company | Role | Seat |
 |------|--------|---------|------|------|
-| [will](https://github.com/wcrum) | @wcrum |  | Co-Chair |  |
-| [Daniel Moch](https://github.com/djmoch) | @djmoch |  | Co-Chair |  |
+| [Will Crum](https://github.com/wcrum) | @wcrum | Defense Unicorns | Co-Chair |  |
+| [Daniel Moch](https://github.com/djmoch) | @djmoch | Lockheed Martin | Co-Chair |  |
 
 
 
