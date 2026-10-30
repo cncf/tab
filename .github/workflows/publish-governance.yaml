@@ -1,0 +1,119 @@
+name: Publish generated governance files
+
+on:
+  workflow_run:
+    workflows: ["Validate governance data"]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publish-governance-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          path: repository
+          persist-credentials: false
+
+      - name: Download generated README changes
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-governance-readmes
+          path: ${{ runner.temp }}/governance-artifact
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Validate source PR and apply README changes
+        id: prepare
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const run = context.payload.workflow_run;
+            const artifact = JSON.parse(fs.readFileSync(
+              path.join(process.env.RUNNER_TEMP, 'governance-artifact', 'generated-readmes.json'),
+              'utf8'
+            ));
+            if (!Number.isSafeInteger(artifact.pull_request) || artifact.pull_request <= 0) {
+              throw new Error('Invalid source PR number');
+            }
+            const { data: pr } = await github.rest.pulls.get({
+              ...context.repo,
+              pull_number: artifact.pull_request,
+            });
+            if (
+              pr.state !== 'open' ||
+              pr.head.sha !== run.head_sha ||
+              pr.head.repo?.full_name !== run.head_repository.full_name ||
+              pr.base.repo.full_name !== `${context.repo.owner}/${context.repo.repo}` ||
+              pr.base.ref !== context.payload.repository.default_branch
+            ) {
+              core.notice('Skipping a stale run or a PR not targeting the default branch');
+              return;
+            }
+            const changedFiles = await github.paginate(github.rest.pulls.listFiles, {
+              ...context.repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+            if (!changedFiles.some(file => file.filename === 'gov.yaml')) {
+              throw new Error('Source PR does not change gov.yaml');
+            }
+            if (!artifact.files || typeof artifact.files !== 'object' || Array.isArray(artifact.files)) {
+              throw new Error('Invalid generated README changes');
+            }
+            const root = path.resolve('repository');
+            // Artifacts come from untrusted PRs; accept README data only, never code or git metadata.
+            for (const [filename, content] of Object.entries(artifact.files)) {
+              if (
+                !/^(README\.md|user-groups\/(?:[A-Za-z0-9_-]+\/)+README\.md)$/.test(filename) ||
+                typeof content !== 'string'
+              ) {
+                throw new Error(`Invalid generated README: ${filename}`);
+              }
+              const target = path.join(root, filename);
+              for (let current = target; current !== root; current = path.dirname(current)) {
+                if (fs.lstatSync(current, { throwIfNoEntry: false })?.isSymbolicLink()) {
+                  throw new Error(`Refusing symlink: ${filename}`);
+                }
+              }
+            }
+            for (const [filename, content] of Object.entries(artifact.files)) {
+              const target = path.join(root, filename);
+              fs.mkdirSync(path.dirname(target), { recursive: true });
+              fs.writeFileSync(target, content);
+            }
+            core.setOutput('pr-number', pr.number);
+
+      - name: Create or update generated-files pull request
+        if: steps.prepare.outputs.pr-number != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: repository
+          base: ${{ github.event.repository.default_branch }}
+          branch: chore/regenerate-governance-files-pr-${{ steps.prepare.outputs.pr-number }}
+          add-paths: |
+            README.md
+            user-groups/**/README.md
+          commit-message: "chore: regenerate governance files for #${{ steps.prepare.outputs.pr-number }}"
+          title: "chore: regenerate governance files for #${{ steps.prepare.outputs.pr-number }}"
+          body: |
+            Regenerates governance README files for #${{ steps.prepare.outputs.pr-number }}.
+
+            Source commit: ${{ github.event.workflow_run.head_sha }}
+
+            Merge the source PR before this PR so the README files match `gov.yaml`.
+          labels: automated-pr
