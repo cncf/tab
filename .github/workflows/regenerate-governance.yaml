@@ -27,6 +27,7 @@ jobs:
       - name: Create generated-files pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           branch: chore/regenerate-governance-files
           commit-message: "chore: regenerate governance files"
           title: "chore: regenerate governance files"
