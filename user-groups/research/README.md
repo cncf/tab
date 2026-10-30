@@ -3,7 +3,7 @@
 The CNCF Research User Group brings together research organisations and collaborations running cloud native technologies to address use cases that differ from enterprise workloads, including scientific batch and HPC/AI workloads, scientific workflows, interactive compute environments, accelerators and big data, and federated infrastructure across multiple institutes. It shares best practices suited to small teams and research groups and provides a structured channel for feedback to CNCF projects.
 
 
-[Charter](https://github.com/cncf/research-user-group/pull/42)
+[Charter](CHARTER.md)
 
 
 ## Leadership
