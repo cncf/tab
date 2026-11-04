@@ -203,7 +203,7 @@ user_groups:
       It connects telecom industry needs with CNCF projects, including needs
       related to multi-networking, configuration management, and lifecycle
       management across distributed edge locations.
-    charter_link: "https://docs.google.com/document/d/1tadJTme4JeT-cIYpD3dGiXqtV9BdSeVWpbPYMbEHhyo/edit?usp=sharing"
+    charter_link: "https://github.com/cncf/tab/blob/main/user-groups/telecom/CHARTER.md"
     leadership:
       - name: Riccardo Gasparetto Stori
         github: rgstori
@@ -222,7 +222,10 @@ user_groups:
     members: []
     emeritus: []
     meetings: []
-    contact: {}
+    contact:
+      slack: "https://cloud-native.slack.com/archives/CACPR914Z"
+      slack_channel: ug-telecom
+      mailing_list: telecom-user-group@lists.cncf.io
   - name: Platform Engineering User Group
     dir: platform-engineering
     mission_statement: >
