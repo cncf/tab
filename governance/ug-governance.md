@@ -4,7 +4,7 @@
 
 This document outlines the scope and responsibilities of the CNCF User Groups
 
-The CNCF User Groups are comprised of four types of groups that serve different purposes or have different scopes:
+The CNCF User Groups are comprised of three types of groups that serve different purposes or have different scopes:
 
 **User Group (UG):** Primary organizational unit that is aligned with an industry vertical, problem domain, or a group that serves a common need of the CNCF End User community.
 
@@ -119,7 +119,7 @@ The expected minimum time commitment is at least 2-4 hours of work per week but 
 
 * **MUST** be approved by the TAB.  
 * **MUST** adhere to the [Technical Leadership Principles].  
-* Membership **MUST** be tracked alongside the TAG metadata.  
+* Membership **MUST** be tracked alongside the UG metadata.  
 * **MUST** have prior experience within the CNCF, but **MAY** be approved by the TAB for an explicitly documented reason such as extensive domain expertise, formation of a new governing body (e.g., new UG, or demonstrating significant aptitude for people & community management.
 
 ##### Duties
